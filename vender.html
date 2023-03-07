@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+.center {
+    margin: auto;
+    width: 44.6%;
+    border: 3px solid #ffffff;
+    padding: 10px;
+    color: "color: rgb(255, 255, 255);"
+}
+</style>
+
+    <head>
+    <link rel="shortcut icon" type="image/jpg" href="icon.jpeg"/>
+    </head>
+
+    <body style = "margin: 0; background-color: black;"> 
+    <h2 style="font-size:80px; color:rgb(255, 255, 255); margin:10px; text-align: center;">where's the vending machine? (uiuc)</h2>
+        
+        <div class = "center">
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1HfyUaxGQvItz0mzUNVBUpDC_f2RsZKc&ehbc=2E312F" width="640" height="480" allign = "center" ></iframe>
+        </div>
+
+        <div class = "center">
+            <form action="sendmail.php" method="POST">
+                <p style="color:#ffffff"> Issue? Missing a machine? Email me!</p>
+                <p style="color:#ffffff"> Your name:</p> 
+                <input type="text" name="realname" style="color:#000000">
+                <p style="color:#ffffff"> Your email:</p> 
+                <input type="text" name="email" style="color:#000000">
+                <p style="color:#ffffff"> Your comments:</p> <br>
+                <textarea name="comments" rows="7" cols="50" ></textarea><br><br>
+                <input type="submit" value="Submit">
+                </form>
+                
+        </div>
+    </body>
+</html>
